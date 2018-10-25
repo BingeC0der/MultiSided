@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WIP</title>
+        <title>LOGIN</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
     </head>
     <body>
-        <h1 style="text-align: center;">THIS WEBPAGE IS CURRENTLY UNDERGOING MAINTENANCE</h1>
+    <div class="login">
+    	<h1>Login</h1>
+        <form method="post">
+        	<input id="aUser" type="text" name="u" placeholder="Username" required="required" />
+            <input id="aPass" type="password" name="p" placeholder="Password" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large" onclick="auth()">Let me in.</button>
+        </form>
+    </div>
     </body>
 </html>
